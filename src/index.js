@@ -9,4 +9,3 @@ document.getElementById('menu').addEventListener('click', menu);
 document.getElementById('contact').addEventListener('click', contact);
 
 initialLoad();
-console.log('Works!');
