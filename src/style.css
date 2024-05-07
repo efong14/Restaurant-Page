@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: purple;
+    background-color: #3B3486;
     padding: 0px;
     margin: 0px;
 }
@@ -13,16 +13,38 @@ body {
 #btnHeader {
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: #332941;
     margin-bottom: 50px;
     width: 100%;
 }
+
+button {
+    margin: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: #F8E559;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
 
 #content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 700px;
+    width: 900px;
     height: 100vh;
-    background-color: white;
+    background-color: #332941;
+    color: white;
+    font-size: 30px;
+}
+
+img {
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+header {
+    margin-bottom: 40px;
 }
