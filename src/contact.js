@@ -1,3 +1,5 @@
+import moon from '../img/moon.png';
+
 const content = document.getElementById('content');
 const img = document.createElement('img');
 const header = document.createElement('header');

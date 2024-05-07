@@ -1,4 +1,4 @@
-import moon from '../img/moon.png'
+import moon from '../img/moon.png';
 
 const content = document.getElementById('content');
 const img = document.createElement('img');
