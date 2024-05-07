@@ -8,7 +8,7 @@ const item3 = document.createElement('div');
 
 
 function contact() {
-    img.src = "../img/moon.png";
+    img.src = moon;
 
     header.textContent = 'Contact';
     item1.textContent= 'Mobile - 0987-555-6622';

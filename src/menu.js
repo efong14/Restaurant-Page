@@ -1,3 +1,5 @@
+import moon from '../img/moon.png'
+
 const content = document.getElementById('content');
 const img = document.createElement('img');
 const header = document.createElement('header');
@@ -7,8 +9,9 @@ const item2 = document.createElement('div');
 const item3 = document.createElement('div');
 const item4 = document.createElement('div');
 
+
 function menu() {
-    img.src = "../img/moon.png";
+    img.src = moon;
 
     header.textContent = 'Menu';
     item1.textContent= 'Coffee - $2.00';
